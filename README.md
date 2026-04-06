@@ -1,8 +1,8 @@
-# 🤖 Autonomous Hiring Agent
+# Autonomous Hiring Agent
 
 A sophisticated AI-powered hiring system that automates the candidate evaluation process using OpenAI and Supabase for persistent memory management.
 
-## 📋 Workflow Overview
+## Workflow Overview
 
 The agent implements a 10-step autonomous hiring workflow:
 
@@ -17,7 +17,7 @@ The agent implements a 10-step autonomous hiring workflow:
 9. **Store Results in Memory** - Persist all data to Supabase
 10. **Update System Based on Outcomes** - Learn and improve from hiring decisions
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Python 3.8+** - Core language
 - **OpenAI GPT-4** - AI interviews and evaluation
@@ -25,7 +25,7 @@ The agent implements a 10-step autonomous hiring workflow:
 - **Pydantic** - Data validation
 - **SQLAlchemy** - Database ORM
 
-## 📦 Installation
+## Installation
 
 ### 1. Clone the Repository
 ```bash
@@ -142,7 +142,7 @@ CREATE TABLE hiring_outcomes (
 );
 ```
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Run with Mock Data
 ```bash
@@ -162,7 +162,7 @@ agent.print_summary(results)
 agent.export_results("results.json")
 ```
 
-## 📊 Project Structure
+## Project Structure
 
 ```
 ├── config.py                    # Configuration settings
@@ -178,7 +178,7 @@ agent.export_results("results.json")
 └── README.md                 # This file
 ```
 
-## 🎯 Key Features
+## Key Features
 
 ### 1. Intelligent Candidate Scoring
 - Technical skills assessment
@@ -219,7 +219,7 @@ agent.export_results("results.json")
 - Update scoring weights based on results
 - Continuous system improvement
 
-## 🔧 Configuration
+## Configuration
 
 Edit `config.py` to customize:
 

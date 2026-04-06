@@ -1,4 +1,4 @@
-# 🚨 Failure Cases & Version 2 Improvements
+# Failure Cases & Version 2 Improvements
 
 ## Version 1.0 Known Limitations & Failure Cases
 
@@ -6,7 +6,7 @@ This document outlines critical failure cases identified in Version 1.0 of the A
 
 ---
 
-## 🔴 Critical Failure Cases
+## Critical Failure Cases
 
 ### 1. **API Rate Limiting & Service Outages**
 **Current Issue**: System fails completely when OpenAI API hits rate limits or experiences outages.
@@ -198,7 +198,7 @@ This document outlines critical failure cases identified in Version 1.0 of the A
 
 ---
 
-## 🟡 Moderate Failure Cases
+## Moderate Failure Cases
 
 ### 11. **Timezone & Scheduling Issues**
 **Current Issue**: No handling of time-sensitive operations or scheduling conflicts.
@@ -217,7 +217,7 @@ This document outlines critical failure cases identified in Version 1.0 of the A
 
 ---
 
-## 🟢 Minor Failure Cases
+## Minor Failure Cases
 
 ### 16. **Error Messages**
 **Current Issue**: Technical error messages not user-friendly.
@@ -236,7 +236,7 @@ This document outlines critical failure cases identified in Version 1.0 of the A
 
 ---
 
-## 📊 Version 2.0 Architecture Improvements
+## Version 2.0 Architecture Improvements
 
 ### **Microservices Architecture**
 - Separate services for each major component
