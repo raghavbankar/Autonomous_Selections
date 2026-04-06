@@ -265,7 +265,7 @@ This document outlines critical failure cases identified in Version 1.0 of the A
 
 ---
 
-## 🎯 Version 2.0 Priority Roadmap
+##  Version 2.0 Priority Roadmap
 
 ### **Phase 1 (Critical Fixes)**
 1. API resilience and error handling
@@ -287,7 +287,7 @@ This document outlines critical failure cases identified in Version 1.0 of the A
 
 ---
 
-## 📈 Success Metrics for Version 2.0
+##  Success Metrics for Version 2.0
 
 - **Reliability**: 99.9% uptime, <1% workflow failures
 - **Accuracy**: >90% correlation with human hiring decisions
@@ -298,7 +298,7 @@ This document outlines critical failure cases identified in Version 1.0 of the A
 
 ---
 
-## 🔍 Testing Strategy for Version 2.0
+##  Testing Strategy for Version 2.0
 
 ### **Failure Case Testing**
 - Chaos engineering for API failures
@@ -314,7 +314,7 @@ This document outlines critical failure cases identified in Version 1.0 of the A
 
 ---
 
-## 💡 Lessons Learned from Version 1.0
+##  Lessons Learned from Version 1.0
 
 1. **Always design for failure** - Assume APIs will fail and plan accordingly
 2. **Validate everything** - Input, output, and intermediate states
